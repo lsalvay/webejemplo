@@ -1,0 +1,231 @@
+body
+{
+	background-color: #fff
+	font-family: arial;
+	text-align: center;
+	padding-top: 5em;
+
+}
+
+nav
+{
+	background: rgba(12, 5, 91, 0.88);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9998;
+
+
+}
+nav ul
+{
+	margin:7px;
+}
+nav li
+{
+	display: inline-block;	
+	list-style: none;
+	
+	
+}
+nav li a 
+{
+	background: #fff;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	
+	display: inline-block;
+	padding: 0.7em;
+	text-decoration: none;
+	
+}
+nav li a:hover 
+{
+	background: #000;
+	border-radius: 1em;
+	color: #fff;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	
+	
+
+}
+
+header 
+{
+	
+	width: 100%;
+
+}
+
+section article
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	position: relative;
+
+}
+
+.login 
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	
+}
+.login a
+{
+	background: none repeat scroll 0 0 #2685EA;
+	border-radius: 1em 1em 1em 1em;
+    color: #F9FF1B;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.logout 
+{
+	position: absolute;
+	right: 10px;
+	display: none;
+	top: 10px;
+	
+}
+.logout a
+{
+	background: none repeat scroll 0 0 #2685EA;
+	border-radius: 1em 1em 1em 1em;
+    color: #F9FF1B;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+
+#close
+{
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	top: 1px;
+    padding: 2px;
+    position: absolute;
+    right: 2px;
+    background:#000;
+    color:#fff;
+    font-size:12px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+#datosUsuario
+{
+	display: none;
+	background: #2C3DE8;
+	border-radius: 1em;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	color:#fff;
+	margin: 0 auto;
+	width: 80%;
+	height: 57px;
+    position: relative;
+    top: 73px;
+    z-index: 9996;
+	
+}
+
+
+#DivLogin
+{
+    background: none repeat scroll 0 0 rgba(45, 58, 188, 0.87);
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    color: #707982;
+    display: none;
+    font-size: 12px;
+    padding: 29px;
+    position: fixed;
+    right: 5px;
+    text-align: center;
+    text-transform: none;
+    top: 10px;
+    z-index: 9999;
+}
+#DivLogin input
+{
+	display: block;
+	margin: 0.5em;
+}
+
+
+#diseno, #mantenimiento, 
+#programacion, #rediseno
+{
+    background: #ccc;
+    margin: 0 4em 4em 4em;
+    min-width: 200px;
+    
+    
+}
+.desc
+{
+    display:none;
+    color:#000;
+    Background: rgba(129, 128, 194, 0.59);
+    left: 0;
+    position: absolute;
+    top: 0;
+    height:100%;
+    width:100%;
+    
+}
+
+#error
+{
+	color: red;
+	position: relative;
+	font-size: 1em;
+}
+
+#Pie
+{
+    background: rgba(12, 5, 91, 0.88);
+    color: #fff;
+    font-size: 1em;
+    
+    height: 8em;
+	width: 100%;
+	
+}
+
+#submit
+{
+	background: #000;
+	color: #fff;
+}
+
+    
+
+
+/*---------- NivoSlider css -----*/
+
+#dev7link {
+    position:absolute;
+    top:0;
+    left:50px;
+    background:url(images/dev7logo.png) no-repeat;
+    width:60px;
+    height:67px;
+    border:0;
+    display:block;
+    text-indent:-9999px;
+    
+}
+
+.slider-wrapper { 
+	width: 80%; 
+	margin: 0 auto 10px auto;
+}

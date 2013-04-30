@@ -1,0 +1,67 @@
+body
+{
+	background-color: #fff
+	font-family: arial;
+	text-align: center;
+
+}
+
+nav
+{
+	background: rgba(12, 5, 91, 0.88);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+
+}
+nav ul
+{
+	
+}
+nav li
+{
+	display: inline-block;	
+	list-style: none;
+	
+	
+}
+nav li a 
+{
+	background: #fff;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	
+	display: inline-block;
+	padding: 0.7em;
+	text-decoration: none;
+	
+}
+nav li a:hover 
+{
+	background: #000;
+	border-radius: 1em;
+	color: #fff;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	
+	
+
+}
+
+header 
+{
+	padding-top: 4em;
+	width: 100%;
+
+}
+
+section article
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+
+}
